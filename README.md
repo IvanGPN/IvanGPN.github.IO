@@ -1,5 +1,5 @@
 # IvanGPN.github.IO
-Лабораторная №1 - знакомство с основными инструментами и нотациями
+## Лабораторная №1 - знакомство с основными инструментами и нотациями
 1. Диаграмма IDEF0
 ![none](https://github.com/IvanGPN/IvanGPN.github.IO/blob/master/Part%20IDEF0.png)
 
@@ -10,7 +10,7 @@
 
 ![none](https://github.com/IvanGPN/IvanGPN.github.IO/blob/master/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9.png)
 
-Лабораторная №2 - определение подсистемы и надсистемы
+## Лабораторная №2 - определение подсистемы и надсистемы
 Рисунок контекста:
 ![none](https://github.com/IvanGPN/IvanGPN.github.IO/blob/master/Part%20IDEF0.png)
 
