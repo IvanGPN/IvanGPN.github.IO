@@ -8,7 +8,7 @@
 
 3. Диаграмма классов
 
-   ![none](https://github.com/IvanGPN/IvanGPN.github.IO/blob/master/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9.png)
+  ![none](https://github.com/IvanGPN/IvanGPN.github.IO/blob/master/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9.png)
 
 ## Лабораторная №2 - определение подсистемы и надсистемы
 Рисунок контекста:
