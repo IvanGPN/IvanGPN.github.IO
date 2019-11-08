@@ -21,4 +21,4 @@
 ![none](https://github.com/IvanGPN/IvanGPN.github.IO/blob/master/%D0%94%D0%B5%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F%20%D0%902.png)
 
 ## Лабораторная №3 - определение способов существования информации
-![none]()
+![none](https://github.com/IvanGPN/IvanGPN.github.IO/blob/master/plantuml.png)
