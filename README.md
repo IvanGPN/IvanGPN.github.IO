@@ -21,4 +21,28 @@
 ![none](https://github.com/IvanGPN/IvanGPN.github.IO/blob/master/%D0%94%D0%B5%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D1%8F%20%D0%902.png)
 
 ## Лабораторная №3 - определение способов существования информации
+Диаграмма последовательности на языке PlantUML:
 ![none](https://github.com/IvanGPN/IvanGPN.github.IO/blob/master/plantuml.png)
+# Код UML:
+@startuml
+skinparam actor {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+autonumber
+
+actor "Рабочий" as user
+database "Задание"
+database "Чертёж"
+control "Подготовка материала" as podg_mat
+control "Подготовка заготовки" as podg_zag
+control "Производство детали" as proiz_det
+
+user -> "Задание": Просмотр задания
+"Задание" -> "Чертёж": Просмотр чертежа
+"Чертёж"-> "podg_mat": Материал
+podg_mat-> "podg_zag": Подготовленный материал
+podg_zag-> "proiz_det": Готовая заготовка
+"Деталь"--> user
+@enduml
