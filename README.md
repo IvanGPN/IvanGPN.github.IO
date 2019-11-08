@@ -23,26 +23,3 @@
 ## Лабораторная №3 - определение способов существования информации
 Диаграмма последовательности на языке PlantUML:
 ![none](https://github.com/IvanGPN/IvanGPN.github.IO/blob/master/plantuml.png)
-# Код UML:
-@startuml
-skinparam actor {
-	BackgroundColor White
-	ArrowColor Black
-	BorderColor Black
-}
-autonumber
-
-actor "Рабочий" as user
-database "Задание"
-database "Чертёж"
-control "Подготовка материала" as podg_mat
-control "Подготовка заготовки" as podg_zag
-control "Производство детали" as proiz_det
-
-user -> "Задание": Просмотр задания
-"Задание" -> "Чертёж": Просмотр чертежа
-"Чертёж"-> "podg_mat": Материал
-podg_mat-> "podg_zag": Подготовленный материал
-podg_zag-> "proiz_det": Готовая заготовка
-"Деталь"--> user
-@enduml
