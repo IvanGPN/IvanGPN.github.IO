@@ -23,4 +23,4 @@
 ## Лабораторная №3 - определение способов существования информации
 Диаграмма последовательности на языке PlantUML:
 ![none](https://github.com/IvanGPN/IvanGPN.github.IO/blob/master/plantuml.png)
-![none](https://github.com/IvanGPN/IvanGPN.github.IO/blob/master/textPlatnUML)
+![blah](https://github.com/IvanGPN/IvanGPN.github.IO/blob/master/textPlatnUML)
