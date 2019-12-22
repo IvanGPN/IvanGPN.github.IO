@@ -1,0 +1,31 @@
+@startuml
+﻿
+skinparam class {
+ BackgroundColor White
+ ArrowColor Black
+ BorderColor Black
+}
+class Entity as "Модули"
+
+class Input as "Функции"
+class Obr as "Обработчик"
+
+class IN1 as "Функция поиска"
+class IN2 as "Функция составления технического маршрута"
+class IN3 as "Функция разбиения процесса на элементы"
+
+class obrOut as "Представление инфорамации"
+
+Entity <|-- Input 
+Entity <|-- Obr 
+
+Obr <|-- obrOut 
+
+Input <|-- IN1
+Input <|-- IN2
+Input <|-- IN3
+
+hide members
+hide circle
+hide methods
+@enduml
