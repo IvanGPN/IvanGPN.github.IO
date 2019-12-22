@@ -1,0 +1,33 @@
+@startuml
+﻿
+skinparam class {
+ BackgroundColor White
+ ArrowColor Black
+ BorderColor Black
+}
+class Entity as "Роли"
+
+class Input as "Люди"
+class Output as "Средства воздействия"
+
+class IN1 as "Директор"
+class IN2 as "Сотрудники отдела"
+class IN3 as "Специалист по РЭП"
+
+class OUT1 as "Средства визуализации"
+class OUT2 as "Классификатор материалов"
+
+Entity <|-- Input 
+Entity <|-- Output 
+
+Input <|-- IN1
+Input <|-- IN2
+Input <|-- IN3
+Output <|-- OUT1
+Output <|-- OUT2
+
+
+hide members
+hide circle
+hide methods
+@enduml
